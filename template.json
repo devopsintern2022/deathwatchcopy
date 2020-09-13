@@ -1,0 +1,68 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "wounds": {
+          "value": 0,
+          "min": 0
+        },
+        "fatigue": {
+          "value": 0,
+          "min": 0
+        }
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "characteristics": {
+        "ws": {
+          "value": 30
+        },
+        "bs": {
+          "value": 30
+        },
+        "s": {
+          "value": 30
+        },
+        "t": {
+          "value": 30
+        },
+        "ag": {
+          "value": 30
+        },
+        "int": {
+          "value": 30
+        },
+        "per": {
+          "value": 30
+        },
+        "wp": {
+          "value": 30
+        },
+        "fel": {
+          "value": 30
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0
+    }
+  }
+}
