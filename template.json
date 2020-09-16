@@ -23,31 +23,40 @@
       },
       "characteristics": {
         "ws": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "bs": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "s": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "t": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "ag": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "int": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "per": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "wp": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         },
         "fel": {
-          "value": 30
+          "value": 30,
+          "bonus": 3
         }
       }
     }
