@@ -46,12 +46,48 @@
 
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="skills">Skills</a>
         <a class="item" data-tab="description">Description</a>
         <a class="item" data-tab="items">Items</a>
     </nav>
 
     {{!-- Sheet Body --}}
     <section class="sheet-body">
+
+        {{!-- Skills Tab --}}
+        <div class="tab skills" data-group="primary" data-tab="skills">
+            <ol class="skill-list">
+                <li class="skill flexrow skill-header">
+                    <div class="skill-name">Name</div>
+                    <div class="skill-basic">Basic</div>
+                    <div class="skill-level">Trained</div>
+                    <div class="skill-level">+10%</div>
+                    <div class="skill-level">+20%</div>
+                </li>
+                {{#each data.skills as |skill id|}} {{#if skill.GroupSkill}}
+                <li class="skill flexrow skill-header">
+                    <h3 class="skill-name">{{id}}</h4>
+                </li>
+                    {{#each skill.skills as |subskill subid|}}
+                    <li class="skill flexrow skill-header">
+                        <h4 class="skill-name">{{subid}} ({{subskill.characteristic}})</h4>
+                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.isBasic" data-dtype="Boolean" {{checked subskill.isBasic}} disabled>
+                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.trained" data-dtype="Boolean" {{checked subskill.trained}}>
+                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.plusTen" data-dtype="Boolean" {{checked subskill.plusTen}}>
+                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.plusTwenty" data-dtype="Boolean" {{checked subskill.plusTwenty}}>
+                    </li>
+                    {{/each}}
+                    {{else}}
+                    <li class="skill flexrow skill-header">
+                        <h4 class="skill-name">{{id}} ({{skill.characteristic}})</h4>
+                        <input type="checkbox" name="data.skills.{{id}}.isBasic" data-dtype="Boolean" {{checked skill.isBasic}} disabled>
+                        <input type="checkbox" name="data.skills.{{id}}.trained" data-dtype="Boolean" {{checked skill.trained}}>
+                        <input type="checkbox" name="data.skills.{{id}}.plusTen" data-dtype="Boolean" {{checked skill.plusTen}}>
+                        <input type="checkbox" name="data.skills.{{id}}.plusTwenty" data-dtype="Boolean" {{checked skill.plusTwenty}}>
+                    </li>
+              {{/if}} {{/each}}
+            </ol>
+        </div>
 
         {{!-- Biography Tab --}}
         <div class="tab biography" data-group="primary" data-tab="description">
