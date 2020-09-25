@@ -11,1172 +11,1176 @@
           "value": 0,
           "min": 0
         }
+      },
+      "characteristics": {
+        "characteristics": {
+            "ws": {
+            "value": 30,
+            "bonus": 3
+            },
+            "bs": {
+            "value": 30,
+            "bonus": 3
+            },
+            "s": {
+            "value": 30,
+            "bonus": 3
+            },
+            "t": {
+            "value": 30,
+            "bonus": 3
+            },
+            "ag": {
+            "value": 30,
+            "bonus": 3
+            },
+            "int": {
+            "value": 30,
+            "bonus": 3
+            },
+            "per": {
+            "value": 30,
+            "bonus": 3
+            },
+            "wp": {
+            "value": 30,
+            "bonus": 3
+            },
+            "fel": {
+            "value": 30,
+            "bonus": 3
+            }
+        }
+      },
+      "skills": {
+        "skills": {
+            "Acrobatics": {
+            "characteristic": "Agility",
+            "isBasic": false,
+            "descriptor": "Movement",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Awareness": {
+            "characteristic": "Perception",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Carouse": {
+            "characteristic": "Toughness",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Charm": {
+            "characteristic": "Fellowship",
+            "isBasic": true,
+            "descriptor": "Interaction",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Chem-Use": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": "Investigation",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Ciphers": {
+            "GroupSkill": true,
+            "skills": {
+                "Xenos Markings": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Deathwatch": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Chapter Runes": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperial Codes": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Inquisition": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Mercenary Cant": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Underworld": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Climb": {
+            "characteristic": "Strength",
+            "isBasic": true,
+            "descriptor": "Movement",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Command": {
+            "characteristic": "Fellowship",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Concealment": {
+            "characteristic": "Agility",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Contortionist": {
+            "characteristic": "Agility",
+            "isBasic": true,
+            "descriptor": "Combat",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Deceive": {
+            "characteristic": "Fellowship",
+            "isBasic": true,
+            "descriptor": "Interaction",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Demolition": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": "Crafting",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Dodge": {
+            "characteristic": "Agility",
+            "isBasic": true,
+            "descriptor": "Combat",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Drive": {
+            "GroupSkill": true,
+            "skills": {
+                "Ground Vehicles": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Skimmer/Hover": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Walker": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Evaluate": {
+            "characteristic": "Intelligence",
+            "isBasic": true,
+            "descriptor": "Investigation",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Gamble": {
+            "characteristic": "Intelligence",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Inquiry": {
+            "characteristic": "Fellowship",
+            "isBasic": true,
+            "descriptor": "Investigation",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Interrogation": {
+            "characteristic": "Willpower",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Intimidate": {
+            "characteristic": "Strength",
+            "isBasic": true,
+            "descriptor": "Interaction",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Invocation": {
+            "characteristic": "Willpower",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Literacy": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Logic": {
+            "characteristic": "Intelligence",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Common Lore": {
+            "GroupSkill": true,
+            "skills": {
+                "Adeptus Arbites": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Adeptus Astartes": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Adeptus Mechanicus": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Administratum": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Deathwatch": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Ecclesiarchy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperial Creed": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperial Guard": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperial Navy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperium": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Jericho Reach": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Tech": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "War": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Forbidden Lore": {
+            "GroupSkill": true,
+            "skills": {
+                "Adeptus Astartes": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Adeptus Mechanicus": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Archeotech": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "The Black Library": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Daemonology": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Heresy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "The Inquisition": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Mutants": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Psykers": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "The Traitor Legions": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "The Warp": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Xenos": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Scholastic Lore": {
+            "GroupSkill": true,
+            "skills": {
+                "Archaic": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Astromancy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Beasts": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Bureaucracy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Chymistry": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Codex Astartes": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Cryptology": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Heraldry": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Imperial Creed": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Judgement": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Legend": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Numerology": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Occult": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Philosophy": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Tactica Imperialis": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Investigation",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Medicae": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Navigation": {
+            "GroupSkill": true,
+            "skills": {
+                "Surface": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Stellar": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Performer": {
+            "GroupSkill": true,
+            "skills": {
+                "Dancer": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Musician": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Singer": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Storyteller": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Pilot": {
+            "GroupSkill": true,
+            "skills": {
+                "Personal": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Flyers": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Space Craft": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Operator",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Psyniscience": {
+            "characteristic": "Perception",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Scrutiny": {
+            "characteristic": "Perception",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Search": {
+            "characteristic": "Perception",
+            "isBasic": true,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Security": {
+            "characteristic": "Agility",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Shadowing": {
+            "characteristic": "Agility",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Silent Move": {
+            "characteristic": "Agility",
+            "isBasic": true,
+            "descriptor": "Movement",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Sleight of Hand": {
+            "characteristic": "Agility",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Speak Language": {
+            "GroupSkill": true,
+            "skills": {
+                "Eldar": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "High Gothic": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Kroot": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Low Gothic": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Ork": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Techna-Lingua": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Tau": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Survival": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Swim": {
+            "characteristic": "Strength",
+            "isBasic": true,
+            "descriptor": "Movement",
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Tactics": {
+            "GroupSkill": true,
+            "skills": {
+                "Air Combat": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Armoured Tactics": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Assault Doctrine": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Defensive Doctrine": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Orbital Drop Procedures": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Recon and Stealth": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Void Combat": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": false,
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Tech-Use": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Tracking": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            },
+            "Trade": {
+            "GroupSkill": true,
+            "skills": {
+                "Archaeologist": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Armourer": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Astrographer": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Chymist": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Cryptographer": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Explorator": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Linguist": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Remembrancer": {
+                "characteristic": "Agility",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false,
+                "TODO": "Can be Agility or Intelligence"
+                },
+                "Shipwright": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Soothsayer": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Technomat": {
+                "characteristic": "Intelligence",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                },
+                "Trader": {
+                "characteristic": "Fellowship",
+                "isBasic": false,
+                "descriptor": "Crafting",
+                "trained": false,
+                "plusTen": false,
+                "plusTwenty": false,
+                "GroupSkill": false
+                }
+            }
+            },
+            "Wrangling": {
+            "characteristic": "Intelligence",
+            "isBasic": false,
+            "descriptor": false,
+            "trained": false,
+            "plusTen": false,
+            "plusTwenty": false,
+            "GroupSkill": false
+            }
+        }
       }
     },
     "character": {
-      "templates": ["base"],
+      "templates": ["base", "characteristics", "skills"],
       "biography": "",
       "attributes": {
         "level": {
           "value": 1
-        }
-      },
-      "characteristics": {
-        "ws": {
-          "value": 30,
-          "bonus": 3
-        },
-        "bs": {
-          "value": 30,
-          "bonus": 3
-        },
-        "s": {
-          "value": 30,
-          "bonus": 3
-        },
-        "t": {
-          "value": 30,
-          "bonus": 3
-        },
-        "ag": {
-          "value": 30,
-          "bonus": 3
-        },
-        "int": {
-          "value": 30,
-          "bonus": 3
-        },
-        "per": {
-          "value": 30,
-          "bonus": 3
-        },
-        "wp": {
-          "value": 30,
-          "bonus": 3
-        },
-        "fel": {
-          "value": 30,
-          "bonus": 3
-        }
-      },
-      "skills": {
-        "Acrobatics": {
-          "characteristic": "Agility",
-          "isBasic": false,
-          "descriptor": "Movement",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Awareness": {
-          "characteristic": "Perception",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Carouse": {
-          "characteristic": "Toughness",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Charm": {
-          "characteristic": "Fellowship",
-          "isBasic": true,
-          "descriptor": "Interaction",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Chem-Use": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": "Investigation",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Ciphers": {
-          "GroupSkill": true,
-          "skills": {
-            "Xenos Markings": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Deathwatch": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Chapter Runes": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperial Codes": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Inquisition": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Mercenary Cant": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Underworld": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Climb": {
-          "characteristic": "Strength",
-          "isBasic": true,
-          "descriptor": "Movement",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Command": {
-          "characteristic": "Fellowship",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Concealment": {
-          "characteristic": "Agility",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Contortionist": {
-          "characteristic": "Agility",
-          "isBasic": true,
-          "descriptor": "Combat",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Deceive": {
-          "characteristic": "Fellowship",
-          "isBasic": true,
-          "descriptor": "Interaction",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Demolition": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": "Crafting",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Dodge": {
-          "characteristic": "Agility",
-          "isBasic": true,
-          "descriptor": "Combat",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Drive": {
-          "GroupSkill": true,
-          "skills": {
-            "Ground Vehicles": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Skimmer/Hover": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Walker": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Evaluate": {
-          "characteristic": "Intelligence",
-          "isBasic": true,
-          "descriptor": "Investigation",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Gamble": {
-          "characteristic": "Intelligence",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Inquiry": {
-          "characteristic": "Fellowship",
-          "isBasic": true,
-          "descriptor": "Investigation",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Interrogation": {
-          "characteristic": "Willpower",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Intimidate": {
-          "characteristic": "Strength",
-          "isBasic": true,
-          "descriptor": "Interaction",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Invocation": {
-          "characteristic": "Willpower",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Literacy": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Logic": {
-          "characteristic": "Intelligence",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Common Lore": {
-          "GroupSkill": true,
-          "skills": {
-            "Adeptus Arbites": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Adeptus Astartes": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Adeptus Mechanicus": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Administratum": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Deathwatch": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Ecclesiarchy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperial Creed": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperial Guard": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperial Navy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperium": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Jericho Reach": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Tech": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "War": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Forbidden Lore": {
-          "GroupSkill": true,
-          "skills": {
-            "Adeptus Astartes": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Adeptus Mechanicus": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Archeotech": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "The Black Library": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Daemonology": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Heresy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "The Inquisition": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Mutants": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Psykers": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "The Traitor Legions": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "The Warp": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Xenos": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Scholastic Lore": {
-          "GroupSkill": true,
-          "skills": {
-            "Archaic": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Astromancy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Beasts": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Bureaucracy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Chymistry": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Codex Astartes": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Cryptology": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Heraldry": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Imperial Creed": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Judgement": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Legend": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Numerology": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Occult": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Philosophy": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Tactica Imperialis": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Investigation",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Medicae": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Navigation": {
-          "GroupSkill": true,
-          "skills": {
-            "Surface": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Stellar": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Performer": {
-          "GroupSkill": true,
-          "skills": {
-            "Dancer": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Musician": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Singer": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Storyteller": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Pilot": {
-          "GroupSkill": true,
-          "skills": {
-            "Personal": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Flyers": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Space Craft": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Operator",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Psyniscience": {
-          "characteristic": "Perception",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Scrutiny": {
-          "characteristic": "Perception",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Search": {
-          "characteristic": "Perception",
-          "isBasic": true,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Security": {
-          "characteristic": "Agility",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Shadowing": {
-          "characteristic": "Agility",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Silent Move": {
-          "characteristic": "Agility",
-          "isBasic": true,
-          "descriptor": "Movement",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Sleight of Hand": {
-          "characteristic": "Agility",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Speak Language": {
-          "GroupSkill": true,
-          "skills": {
-            "Eldar": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "High Gothic": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Kroot": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Low Gothic": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Ork": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Techna-Lingua": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Tau": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Survival": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Swim": {
-          "characteristic": "Strength",
-          "isBasic": true,
-          "descriptor": "Movement",
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Tactics": {
-          "GroupSkill": true,
-          "skills": {
-            "Air Combat": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Armoured Tactics": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Assault Doctrine": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Defensive Doctrine": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Orbital Drop Procedures": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Recon and Stealth": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Void Combat": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": false,
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Tech-Use": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Tracking": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
-        },
-        "Trade": {
-          "GroupSkill": true,
-          "skills": {
-            "Archaeologist": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Armourer": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Astrographer": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Chymist": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Cryptographer": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Explorator": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Linguist": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Remembrancer": {
-              "characteristic": "Agility",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false,
-              "TODO": "Can be Agility or Intelligence"
-            },
-            "Shipwright": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Soothsayer": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Technomat": {
-              "characteristic": "Intelligence",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            },
-            "Trader": {
-              "characteristic": "Fellowship",
-              "isBasic": false,
-              "descriptor": "Crafting",
-              "trained": false,
-              "plusTen": false,
-              "plusTwenty": false,
-              "GroupSkill": false
-            }
-          }
-        },
-        "Wrangling": {
-          "characteristic": "Intelligence",
-          "isBasic": false,
-          "descriptor": false,
-          "trained": false,
-          "plusTen": false,
-          "plusTwenty": false,
-          "GroupSkill": false
         }
       }
     }
