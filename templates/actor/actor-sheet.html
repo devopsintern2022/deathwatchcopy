@@ -47,6 +47,7 @@
     {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="skills">Skills</a>
+        <a class="item" data-tab="stats">Stats</a>
         <a class="item" data-tab="description">Description</a>
         <a class="item" data-tab="items">Items</a>
     </nav>
@@ -66,7 +67,7 @@
                 </li>
                 {{#each data.skills as |skill id|}} {{#if skill.GroupSkill}}
                 <li class="skill flexrow skill-header">
-                    <h3 class="skill-name">{{id}}</h4>
+                    <h4 class="skill-name">{{id}}</h4>
                 </li>
                     {{#each skill.skills as |subskill subid|}}
                     <li class="skill flexrow skill-header">
@@ -87,6 +88,43 @@
                     </li>
               {{/if}} {{/each}}
             </ol>
+        </div>
+
+
+        {{!-- Stats Tab --}}
+        <div class="tab stats" data-group="primary" data-tab="stats">
+            <div class="stats grid grid-2col">
+                <div class="insanity flex-group-center">
+                    <label for="data.insanity.points" class="resource-label">Insanity</label>
+                    <input type="text" name="data.insanity.points" value="{{data.insanity.points}}" data-dtype="Number"/>
+                    <label for="data.insanity.battleFatigue" class="resource-label">Battle Fatigue</label>
+                    <input type="text" name="data.insanity.battleFatigue" value="{{data.insanity.battleFatigue}}"/>
+                    <label for="data.insanity.primarchsCurse" class="resource-label">Primarch's Curse</label>
+                    <input type="text" name="data.insanity.primarchsCurse" value="{{data.insanity.primarchsCurse}}"/>
+                </div>
+                <div class="movement flex-group-left">
+                    <label for="data.movement.half" class="resource-label">Half Movement</label>
+                    <input type="text" name="data.movement.half" value="{{data.movement.half}}" data-dtype="Number"/>
+                    <label for="data.movement.full" class="resource-label">Full Movement</label>
+                    <input type="text" name="data.movement.full" value="{{data.movement.full}}" data-dtype="Number"/>
+                    <label for="data.movement.charge" class="resource-label">Charge</label>
+                    <input type="text" name="data.movement.charge" value="{{data.movement.charge}}" data-dtype="Number"/>
+                    <label for="data.movement.run" class="resource-label">Run</label>
+                    <input type="text" name="data.movement.run" value="{{data.movement.run}}" data-dtype="Number"/>
+                </div>
+                <div class="fate flex-group-left">
+                    <label for="data.fate.value" class="resource-label">Fate Points</label>
+                    <div class="resource-content flexrow flex-center flex-between">
+                        <input type="text" name="data.fate.value" value="{{data.fate.value}}" data-dtype="Number"/>
+                        <span> / </span>
+                        <input type="text" name="data.fate.max" value="{{data.fate.max}}" data-dtype="Number"/>
+                    </div>
+                </div>
+                <div class="corruption flex-group-left">
+                    <label for="data.corruption" class="resource-label">Corruption</label>
+                    <input type="text" name="data.corruption" value="{{data.corruption}}" data-dtype="Number"/>
+                </div>
+            </div>
         </div>
 
         {{!-- Biography Tab --}}
