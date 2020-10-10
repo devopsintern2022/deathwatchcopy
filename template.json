@@ -5,11 +5,11 @@
       "base": {
         "wounds": {
           "value": 0,
-          "min": 0
+          "max": 0
         },
         "fatigue": {
           "value": 0,
-          "min": 0
+          "max": 0
         }
       },
       "characteristics": {
@@ -1173,10 +1173,34 @@
             "GroupSkill": false
           }
         }
+      },
+      "insanity": {
+        "insanity": {
+          "points": 0,
+          "battleFatigue": "",
+          "primarchsCurse": ""
+        }
+      },
+      "movement": {
+        "movement": {
+          "half": 1,
+          "full": 2,
+          "charge": 3,
+          "run": 6
+        }
+      },
+      "fate": {
+        "fate": {
+          "value": 0,
+          "max": 0
+        }
+      },
+      "corruption": {
+        "corruption": 0
       }
     },
     "character": {
-      "templates": ["base", "characteristics", "skills"],
+      "templates": ["base", "characteristics", "corruption", "fate", "insanity", "movement", "skills"],
       "biography": "",
       "attributes": {
         "level": {
