@@ -48,7 +48,7 @@
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="skills">Skills</a>
         <a class="item" data-tab="stats">Stats</a>
-        <a class="item" data-tab="description">Description</a>
+        <a class="item" data-tab="background">Background</a>
         <a class="item" data-tab="items">Items</a>
     </nav>
 
@@ -128,8 +128,38 @@
         </div>
 
         {{!-- Biography Tab --}}
-        <div class="tab biography" data-group="primary" data-tab="description">
-            {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}
+        <div class="tab background" data-group="primary" data-tab="background">
+            <div class="stats grid grid-2col">
+                <div class="chapter flex-group-center">
+                    <label for="data.chapter" class="resource-label">Chapter</label>
+                    <input type="text" name="data.chapter" value="{{data.chapter}}"/>
+                    <label for="data.chapterDemeanour" class="resource-label">Chapter Demeanour</label>
+                    <input type="text" name="data.chapterDemeanour" value="{{data.chapterDemeanour}}"/>
+                </div>
+                <div class="personal flex-group-left">
+                    <label for="data.pastEvent" class="resource-label">Past Event</label>
+                    <input type="text" name="data.pastEvent" value="{{data.pastEvent}}"/>
+                    <label for="data.personalDemeanour" class="resource-label">Personal Demeanour</label>
+                    <input type="text" name="data.personalDemeanour" value="{{data.personalDemeanour}}"/>
+                </div>
+                <div class="speciality flex-group-left">
+                    <label for="data.speciality" class="resource-label">Speciality</label>
+                    <input type="text" name="data.speciality" value="{{data.speciality}}"/>
+                </div>
+                <div class="rank flex-group-left">
+                    <label for="data.rank" class="resource-label">Rank</label>
+                    <input type="text" name="data.rank" value="{{data.rank}}" data-dtype="Number"/>
+                </div>
+                <div class="powerArmourHistory flex-group-left">
+                    <label for="data.powerArmourHistory" class="resource-label">PowerArmour History</label>
+                    <input type="text" name="data.powerArmourHistory" value="{{data.powerArmourHistory}}"/>
+                </div>
+                <div class="description flex-group-left">
+                    <label for="data.description" class="resource-label">Description</label>
+                    {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+                </div>
+            </div>
+
         </div>
 
         {{!-- Owned Items Tab --}}

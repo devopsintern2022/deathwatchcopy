@@ -1197,11 +1197,20 @@
       },
       "corruption": {
         "corruption": 0
+      },
+      "background": {
+        "chapter": "",
+        "pastEvent": "",
+        "chapterDemeanour": "",
+        "personalDemeanour": "",
+        "speciality": "",
+        "powerArmourHistory": "",
+        "description": "",
+        "rank": 1
       }
     },
     "character": {
-      "templates": ["base", "characteristics", "corruption", "fate", "insanity", "movement", "skills"],
-      "biography": "",
+      "templates": ["base", "background", "characteristics", "corruption", "fate", "insanity", "movement", "skills"],
       "attributes": {
         "level": {
           "value": 1
