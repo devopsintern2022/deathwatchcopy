@@ -24,6 +24,6 @@
   "secondaryTokenAttribute": "fatigue",
   "url": "https://gitlab.com/marcoSch/deathwatch-foundryvtt",
   "manifest": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/raw/master/system.json",
-  "download": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/archive/master/deathwatch-foundryvtt-master.zip",
+  "download": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/archive/v0.0.1/deathwatch-foundryvtt-v0.0.1.zip",
   "license": "LICENSE.txt"
 }
