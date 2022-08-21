@@ -13,19 +13,19 @@
               and it will add a small amount of padding, a border, and will
               center all of its child elements content and text. --}}
               <div class="resource flex-group-center">
-                  <label for="data.wounds.value" class="resource-label">Wounds</label>
+                  <label for="data.data.wounds.value" class="resource-label">Wounds</label>
                   <div class="resource-content flexrow flex-center flex-between">
-                    <input type="text" name="data.wounds.value" value="{{data.wounds.value}}" data-dtype="Number"/>
+                    <input type="text" name="data.data.wounds.value" value="{{data.data.wounds.value}}" data-dtype="Number"/>
                     <span> / </span>
-                    <input type="text" name="data.wounds.max" value="{{data.wounds.max}}" data-dtype="Number"/>
+                    <input type="text" name="data.data.wounds.max" value="{{data.data.wounds.max}}" data-dtype="Number"/>
                   </div>
               </div>
               <div class="resource flex-group-center">
-                  <label for="data.fatigue.value" class="resource-label">Fatigue</label>
+                  <label for="data.data.fatigue.value" class="resource-label">Fatigue</label>
                   <div class="resource-content flexrow flex-center flex-between">
-                    <input type="text" name="data.fatigue.value" value="{{data.fatigue.value}}" data-dtype="Number"/>
+                    <input type="text" name="data.data.fatigue.value" value="{{data.data.fatigue.value}}" data-dtype="Number"/>
                     <span> / </span>
-                    <input type="text" name="data.fatigue.max" value="{{data.fatigue.max}}" data-dtype="Number"/>
+                    <input type="text" name="data.data.fatigue.max" value="{{data.data.fatigue.max}}" data-dtype="Number"/>
                   </div>
               </div>
           </div>
@@ -33,11 +33,11 @@
           use both the "grid" and "grid-Ncol" class where "N" can be any number
           from 1 to 12 and will create that number of columns.  --}}
           <div class="abilities grid grid-9col">
-            {{#each data.characteristics as |ability key|}}
+            {{#each data.data.characteristics as |ability key|}}
               <div class="ability flexcol flex-group-center">
-                <label for="data.characteristics.{{key}}.value" class="resource-label">{{key}}</label>
-                <label for="data.characteristics.{{key}}.bonus" class="bonus-label">{{bonus}}</label>
-                <input type="text" name="data.characteristics.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
+                <label for="data.data.characteristics.{{key}}.value" class="resource-label">{{key}}</label>
+                <label for="data.data.characteristics.{{key}}.bonus" class="bonus-label">{{bonus}}</label>
+                <input type="text" name="data.data.characteristics.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
               </div>
             {{/each}}
           </div>
@@ -65,26 +65,26 @@
                     <div class="skill-level">+10%</div>
                     <div class="skill-level">+20%</div>
                 </li>
-                {{#each data.skills as |skill id|}} {{#if skill.GroupSkill}}
+                {{#each data.data.skills as |skill id|}} {{#if skill.GroupSkill}}
                 <li class="skill flexrow skill-header">
                     <h4 class="skill-name">{{id}}</h4>
                 </li>
                     {{#each skill.skills as |subskill subid|}}
                     <li class="skill flexrow skill-header">
                         <h4 class="skill-name">{{subid}} ({{subskill.characteristic}})</h4>
-                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.isBasic" data-dtype="Boolean" {{checked subskill.isBasic}} disabled>
-                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.trained" data-dtype="Boolean" {{checked subskill.trained}}>
-                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.plusTen" data-dtype="Boolean" {{checked subskill.plusTen}}>
-                        <input type="checkbox" name="data.skills.{{id}}.skills.{{subid}}.plusTwenty" data-dtype="Boolean" {{checked subskill.plusTwenty}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.skills.{{subid}}.isBasic" data-dtype="Boolean" {{checked subskill.isBasic}} disabled>
+                        <input type="checkbox" name="data.data.skills.{{id}}.skills.{{subid}}.trained" data-dtype="Boolean" {{checked subskill.trained}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.skills.{{subid}}.plusTen" data-dtype="Boolean" {{checked subskill.plusTen}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.skills.{{subid}}.plusTwenty" data-dtype="Boolean" {{checked subskill.plusTwenty}}>
                     </li>
                     {{/each}}
                     {{else}}
                     <li class="skill flexrow skill-header">
                         <h4 class="skill-name">{{id}} ({{skill.characteristic}})</h4>
-                        <input type="checkbox" name="data.skills.{{id}}.isBasic" data-dtype="Boolean" {{checked skill.isBasic}} disabled>
-                        <input type="checkbox" name="data.skills.{{id}}.trained" data-dtype="Boolean" {{checked skill.trained}}>
-                        <input type="checkbox" name="data.skills.{{id}}.plusTen" data-dtype="Boolean" {{checked skill.plusTen}}>
-                        <input type="checkbox" name="data.skills.{{id}}.plusTwenty" data-dtype="Boolean" {{checked skill.plusTwenty}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.isBasic" data-dtype="Boolean" {{checked skill.isBasic}} disabled>
+                        <input type="checkbox" name="data.data.skills.{{id}}.trained" data-dtype="Boolean" {{checked skill.trained}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.plusTen" data-dtype="Boolean" {{checked skill.plusTen}}>
+                        <input type="checkbox" name="data.data.skills.{{id}}.plusTwenty" data-dtype="Boolean" {{checked skill.plusTwenty}}>
                     </li>
               {{/if}} {{/each}}
             </ol>
@@ -95,34 +95,34 @@
         <div class="tab stats" data-group="primary" data-tab="stats">
             <div class="stats grid grid-2col">
                 <div class="insanity flex-group-center">
-                    <label for="data.insanity.points" class="resource-label">Insanity</label>
-                    <input type="text" name="data.insanity.points" value="{{data.insanity.points}}" data-dtype="Number"/>
-                    <label for="data.insanity.battleFatigue" class="resource-label">Battle Fatigue</label>
-                    <input type="text" name="data.insanity.battleFatigue" value="{{data.insanity.battleFatigue}}"/>
-                    <label for="data.insanity.primarchsCurse" class="resource-label">Primarch's Curse</label>
-                    <input type="text" name="data.insanity.primarchsCurse" value="{{data.insanity.primarchsCurse}}"/>
+                    <label for="data.data.insanity.points" class="resource-label">Insanity</label>
+                    <input type="text" name="data.data.insanity.points" value="{{data.data.insanity.points}}" data-dtype="Number"/>
+                    <label for="data.data.insanity.battleFatigue" class="resource-label">Battle Fatigue</label>
+                    <input type="text" name="data.data.insanity.battleFatigue" value="{{data.data.insanity.battleFatigue}}"/>
+                    <label for="data.data.insanity.primarchsCurse" class="resource-label">Primarch's Curse</label>
+                    <input type="text" name="data.data.insanity.primarchsCurse" value="{{data.data.insanity.primarchsCurse}}"/>
                 </div>
                 <div class="movement flex-group-left">
-                    <label for="data.movement.half" class="resource-label">Half Movement</label>
-                    <input type="text" name="data.movement.half" value="{{data.movement.half}}" data-dtype="Number"/>
-                    <label for="data.movement.full" class="resource-label">Full Movement</label>
-                    <input type="text" name="data.movement.full" value="{{data.movement.full}}" data-dtype="Number"/>
-                    <label for="data.movement.charge" class="resource-label">Charge</label>
-                    <input type="text" name="data.movement.charge" value="{{data.movement.charge}}" data-dtype="Number"/>
-                    <label for="data.movement.run" class="resource-label">Run</label>
-                    <input type="text" name="data.movement.run" value="{{data.movement.run}}" data-dtype="Number"/>
+                    <label for="data.data.movement.half" class="resource-label">Half Movement</label>
+                    <input type="text" name="data.data.movement.half" value="{{data.movement.half}}" data-dtype="Number"/>
+                    <label for="data.data.movement.full" class="resource-label">Full Movement</label>
+                    <input type="text" name="data.data.movement.full" value="{{data.movement.full}}" data-dtype="Number"/>
+                    <label for="data.data.movement.charge" class="resource-label">Charge</label>
+                    <input type="text" name="data.data.movement.charge" value="{{data.movement.charge}}" data-dtype="Number"/>
+                    <label for="data.data.movement.run" class="resource-label">Run</label>
+                    <input type="text" name="data.data.movement.run" value="{{data.movement.run}}" data-dtype="Number"/>
                 </div>
                 <div class="fate flex-group-left">
-                    <label for="data.fate.value" class="resource-label">Fate Points</label>
+                    <label for="data.data.fate.value" class="resource-label">Fate Points</label>
                     <div class="resource-content flexrow flex-center flex-between">
-                        <input type="text" name="data.fate.value" value="{{data.fate.value}}" data-dtype="Number"/>
+                        <input type="text" name="data.data.fate.value" value="{{data.fate.value}}" data-dtype="Number"/>
                         <span> / </span>
-                        <input type="text" name="data.fate.max" value="{{data.fate.max}}" data-dtype="Number"/>
+                        <input type="text" name="data.data.fate.max" value="{{data.fate.max}}" data-dtype="Number"/>
                     </div>
                 </div>
                 <div class="corruption flex-group-left">
-                    <label for="data.corruption" class="resource-label">Corruption</label>
-                    <input type="text" name="data.corruption" value="{{data.corruption}}" data-dtype="Number"/>
+                    <label for="data.data.corruption" class="resource-label">Corruption</label>
+                    <input type="text" name="data.data.corruption" value="{{data.corruption}}" data-dtype="Number"/>
                 </div>
             </div>
         </div>
@@ -131,32 +131,32 @@
         <div class="tab background" data-group="primary" data-tab="background">
             <div class="stats grid grid-2col">
                 <div class="chapter flex-group-center">
-                    <label for="data.chapter" class="resource-label">Chapter</label>
-                    <input type="text" name="data.chapter" value="{{data.chapter}}"/>
-                    <label for="data.chapterDemeanour" class="resource-label">Chapter Demeanour</label>
-                    <input type="text" name="data.chapterDemeanour" value="{{data.chapterDemeanour}}"/>
+                    <label for="data.data.chapter" class="resource-label">Chapter</label>
+                    <input type="text" name="data.data.chapter" value="{{data.chapter}}"/>
+                    <label for="data.data.chapterDemeanour" class="resource-label">Chapter Demeanour</label>
+                    <input type="text" name="data.data.chapterDemeanour" value="{{data.chapterDemeanour}}"/>
                 </div>
                 <div class="personal flex-group-left">
-                    <label for="data.pastEvent" class="resource-label">Past Event</label>
-                    <input type="text" name="data.pastEvent" value="{{data.pastEvent}}"/>
-                    <label for="data.personalDemeanour" class="resource-label">Personal Demeanour</label>
-                    <input type="text" name="data.personalDemeanour" value="{{data.personalDemeanour}}"/>
+                    <label for="data.data.pastEvent" class="resource-label">Past Event</label>
+                    <input type="text" name="data.data.pastEvent" value="{{data.pastEvent}}"/>
+                    <label for="data.data.personalDemeanour" class="resource-label">Personal Demeanour</label>
+                    <input type="text" name="data.data.personalDemeanour" value="{{data.personalDemeanour}}"/>
                 </div>
                 <div class="speciality flex-group-left">
-                    <label for="data.speciality" class="resource-label">Speciality</label>
-                    <input type="text" name="data.speciality" value="{{data.speciality}}"/>
+                    <label for="data.data.speciality" class="resource-label">Speciality</label>
+                    <input type="text" name="data.data.speciality" value="{{data.speciality}}"/>
                 </div>
                 <div class="rank flex-group-left">
-                    <label for="data.rank" class="resource-label">Rank</label>
-                    <input type="text" name="data.rank" value="{{data.rank}}" data-dtype="Number"/>
+                    <label for="data.data.rank" class="resource-label">Rank</label>
+                    <input type="text" name="data.data.rank" value="{{data.rank}}" data-dtype="Number"/>
                 </div>
                 <div class="powerArmourHistory flex-group-left">
-                    <label for="data.powerArmourHistory" class="resource-label">PowerArmour History</label>
-                    <input type="text" name="data.powerArmourHistory" value="{{data.powerArmourHistory}}"/>
+                    <label for="data.data.powerArmourHistory" class="resource-label">PowerArmour History</label>
+                    <input type="text" name="data.data.powerArmourHistory" value="{{data.powerArmourHistory}}"/>
                 </div>
                 <div class="description flex-group-left">
-                    <label for="data.description" class="resource-label">Description</label>
-                    {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}
+                    <label for="data.data.description" class="resource-label">Description</label>
+                    {{editor content=data.description target="data.data.description" button=true owner=owner editable=editable}}
                 </div>
             </div>
 
