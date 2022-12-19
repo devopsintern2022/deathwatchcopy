@@ -1,12 +1,15 @@
 {
-  "name": "deathwatch",
+  "id": "deathwatch",
   "title": "Deathwatch",
   "description": "The Deathwatch system for FoundryVTT!",
-  "version": "0.0.2",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
   "templateVersion": 2,
-  "author": "Marco",
+  "authors": [{"name": "marco"}],
   "esmodules": ["module/deathwatch.js"],
   "styles": ["css/deathwatch.css"],
   "scripts": [],
@@ -24,6 +27,6 @@
   "secondaryTokenAttribute": "fatigue",
   "url": "https://gitlab.com/marcoSch/deathwatch-foundryvtt",
   "manifest": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/raw/master/system.json",
-  "download": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/archive/v0.0.2/deathwatch-foundryvtt-v0.0.2.zip",
+  "download": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/archive/v0.0.3/deathwatch-foundryvtt-v0.0.3.zip",
   "license": "LICENSE.txt"
 }
