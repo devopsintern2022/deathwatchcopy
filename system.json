@@ -24,8 +24,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "wounds",
   "secondaryTokenAttribute": "fatigue",
-  "url": "https://gitlab.com/marcoSch/deathwatch-foundryvtt",
-  "manifest": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/raw/master/system.json",
-  "download": "https://gitlab.com/marcoSch/deathwatch-foundryvtt/-/archive/v0.0.3/deathwatch-foundryvtt-v0.0.3.zip",
+  "url": "https://github.com/devopsintern2022/deathwatchcopy",
+  "manifest": "https://github.com/devopsintern2022/deathwatchcopy/releases/download/test/system.json",
+  "download": "https://github.com/devopsintern2022/deathwatchcopy/releases/download/test/deathwatchcopy.zip",
   "license": "LICENSE.txt"
 }
